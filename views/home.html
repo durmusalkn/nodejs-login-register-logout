@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .row{
+            margin-top: 20px;
+            
+        }
+        .card-style{
+            margin-bottom: 30px;
+        }
+    </style>
+
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="background-color: rgba(241, 237, 237, 0.849); margin-bottom: 50px;; ">
+            <ul class="nav justify-content-start">
+                <li class="nav-item">
+                    <h6 class="nav-link active">Kırklareli Üniversitesi</h6>
+                </li>
+            </ul>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <!--
+                <a class="nav-link active" href="#">Home</a> -->
+                </li>
+                <li class="nav-item">
+                    <!-- <a class="nav-link" href="#">Lorem</a>-->
+                
+                </li>
+                <li class="nav-item" style="margin:auto">
+                    <a href="/logout" class="btn btn-primary">Logout</a>
+                </li>
+                
+            </ul>
+        </div>
+
+        
+
+        <table class="table table-striped" style="margin-bottom: 50px;">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">DERS</th>
+                <th scope="col">AKTS</th>
+                <th scope="col">Dönem Sonu Puan</th>
+                <th scope="col">Durum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>İleri Web Programlama</td>
+                <td>5</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Üretim Planlama</td>
+                <td>5</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Yazılım Ölçme ve Sınama</td>
+                <td>4</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Bitirme Projesi</td>
+                <td>6</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Oyun Programlama</td>
+                <td>5</td>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 card-style">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">İleri Web Programlama</h5>
+                            <p class="card-text">Bir okulun, öğrencilerinin akademik durumlarını takip edebileceği bir sistem istediğini düşünün. Bu sistem 
+                                için basit bir login sistemi geliştirmek için projeye dahil edildiniz ve size aşağıdaki sistem gereksinimleri 
+                                verilsin: 
+                                1. Öğrenciler önce e-postalarını ve gerekli kimlik bilgilerini kullanarak uygulamada oturum açarlar. 
+                                Mevcut bir hesap bulunamazsa, bir hesap oluşturmaları istenir ve buna imkân sunulur. 
+                                2. Mevcut bir hesap bulunursa, öğrenci artık akademik ilerlemesini ve ödevini görebilir. 
+                                3. Öğrencinin herkese açık bir bilgisayar kullanıyorsa uygulamadan çıkış yapabilmesi için bir çıkış 
+                                seçeneği de sağlanmıştır. 
+                                4. Öğrenci, oturum açmadığı sürece kontrol paneline erişemez Yukarıdaki bu 4 gerekliliği yerine getiren login sistemini NodeJs kullanarak geliştirmeniz istenmektedir. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-12 card-style">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Oyun Programlama</h5>
+                            <p class="card-text">yununuza bir giriş ekranı ve en az bir de oyun sonu ekranı hazırlayın. Oyununuz için en 
+                                az bir kazanma ve en az bir kaybetme koşulu belirleyin. Seviye tasarımını bu kazanma ve kaybetme 
+                                koşullarını göz önünde bulundurarak oluşturun. Tasarladığınız seviyeye göre oyununuzun 
+                                sahnesini düzenleyin. Sahnenizde en az 3 adet düşman/rakip/hedef bulunmalıdır. Bular için birer
+                                animasyon oluşturun ve sahnede hareket etmelerini sağlayın. Bu 3 obje dışında karakterinizi 
+                                rahatsız edecek bir obje daha tasarlayın. Bu obje karakterinizi takip ediyor olabilir yada ondan 
+                                kaçıyor ve zorluk çıkarıyor olabilir veya sizin aklınıza gelen herhangi başka bir yöntemi de 
+                                kullanabilirsiniz. Bu obje için gerekli scripti oluşturun. Oyunuza ses efektleri ekleyin. En az 1 tane 
+                                arkaplan müziği, en az 2 tane oyun içi ses efekti oluşturulsun. Oyun başladığında karakteri 
+                                yöneteceğiniz tuşlar ve oyunun amacı kullanıcıya bir popup ekranı üzerinde gösterilsin. Bu ekran 
+                                kapatılınca oyununuz başlasın. Oyununza ait bir puanlama/performans değeri tutulsun bu değer 
+                                ekranda yazılsın. Ve oyun bitince bitiş ekranında da bu değer gösterilsin.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+               
+            
+            </div>
+        </div>
+
+        
+    </div>
+       
+</body>
+</html>
