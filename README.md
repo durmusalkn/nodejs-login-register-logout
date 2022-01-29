@@ -6,12 +6,12 @@ There are register, login and logout processes with nodejs in this app.
 <hr>
 <br>
 <code>
-    npm install express <br>
-    npm install ejs <br>
-    npm install cookie-parser<br>
-    npm install express-session<br>
-    npm install mysql<br>
-    npm install node-localstorage<br>ö
+    npm install express		
+    npm install ejs		
+    npm install cookie-parser      
+    npm install express-session     
+    npm install mysql     
+    npm install node-localstorage     
 </code>
 <br>
 <hr>
@@ -23,13 +23,13 @@ There are register, login and logout processes with nodejs in this app.
 After making the downloads, let's handle the frontend parts of the application. Firstly We need three page for this app. 
 <br><strong><i>Login page:</i></strong> Users will see this page first. They will be able to login or go to the register page.
 
-<!--Login pagein resmi eklenecek buraya-->
+![image](https://user-images.githubusercontent.com/68349891/151665671-dd9b6866-5a6e-4611-bbf0-88cccaf9c649.png)
 
 <br><strong><i>Register page:</i></strong> Users can register here.
-<!-- register page resmi eklenecek-->
+![image](https://user-images.githubusercontent.com/68349891/151665660-965be0af-60a5-401c-8aec-9ab6cb1ca339.png)
 <br><strong><i>Home page:</i></strong> Registered users are redirected here after login.
 
-<!--home page resmi eklenecek-->
+![image](https://user-images.githubusercontent.com/68349891/151665647-a07b6ce1-1e8d-48fd-9d27-85dcb6e2bcb7.png)
 
 ### Database
 Mysql was used as database in this project. Database name is nodeapp. A table named "user" has been created.
@@ -51,13 +51,13 @@ A js file will be created an named login.js The name is not important, and other
 
 <strong><i>Login.js:<i><strong><br>
 
-Firstly requirements are defined. <br>
+Firstly requirements are defined. <br/>
 <code>
-    var mysql = require('mysql');<br>
-    var express = require('express');<br>
-    var bodyParser = require('body-parser');<br>
-    var path = require('path');<br>
-    const { response } = require('express');<br>
+    var mysql = require('mysql');<br/>
+    var express = require('express');<br/>
+    var bodyParser = require('body-parser');<br/>
+    var path = require('path');<br/>
+    const { response } = require('express');<br/>
 </code>
 
 Database connection established
