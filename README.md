@@ -6,13 +6,10 @@ There are register, login and logout processes with nodejs in this app.
 <hr>
 <br>
 <code>
-    npm install express		
-    npm install ejs		
-    npm install cookie-parser      
-    npm install express-session     
-    npm install mysql     
-    npm install node-localstorage     
+    npm install <br>
+    node login.js
 </code>
+And open the http://localhost:3000/
 <br>
 <hr>
 
