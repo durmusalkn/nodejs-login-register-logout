@@ -6,8 +6,8 @@ There are register, login and logout processes with nodejs in this app.
 <hr>
 <br>
 <code>
-    npm install <br>
-    node login.js
+    npm install
+    <pp> node login.js</p>
 </code>
 And open the http://localhost:3000/
 <br>
