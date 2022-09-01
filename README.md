@@ -7,7 +7,7 @@ There are register, login and logout processes with nodejs in this app.
 <br>
 <code>
     npm install
-    <pp> node login.js</p>
+    <p>node login.js</p>
 </code>
 And open the http://localhost:3000/
 <br>
